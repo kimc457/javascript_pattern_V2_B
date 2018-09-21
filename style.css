@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+html,div {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+
+}
+
+body {
+  background-color: #70e4ff;
+  margin: 20px;
+  font-size: 0;
+  padding: 20;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+
+.container{
+  position: relative;
+  display: inline-block;
+  width: 11.11vw;
+  height: 11.11vw;
+}
+
+/* vw = view width */
+
+.circle {
+  position: absolute;
+  background-color: red;
+/*   border-radius: 50%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#wrapper {
+  width: 100vw;
+}
